@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3085b9;
+}
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    79deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(80, 80, 138, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: rgb(213, 203, 203);
+}
+
+input {
+  font-size: 1.3rem;
+  padding: 0.4rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 1.4rem;
+  display: block;
+}
+
+button {
+  font-size: 1.4rem;
+  border-radius: 15px;
+  padding: 0.6rem;
+  margin: 1rem auto;
+  display: block;
+}
+
+input {
+  display: inline;
+}
+
+.form {
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+table {
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse;
+  display: inline;
+}
+
+table tr {
+  padding: 0;
+  margin: 0;
+}
+
+table td,
+th {
+  font-size: 1.8rem;
+  padding: 0.6rem;
+  color: rgb(0, 17, 39);
+  border: 2px solid rgb(49, 53, 5);
+  margin: 0;
+  text-align: center;
+}
+
+tr td:first-child {
+  font-weight: bold;
+  background-color: rgb(36, 103, 161);
+  color: #333333;
+}
+
+th {
+  background-color: rgb(36, 103, 161);
+  color: #333333;
+}
+
+.show {
+  margin: 0 auto;
+  background-color: #2a75a3;
+  width: fit-content;
+  padding: 3rem;
+  border-radius: 30px;
+}
+
+.LCS {
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  text-align: center;
+  color: #333333;
+}
+
+.noBorder {
+  border: none;
+}
+
+.table h1 {
+  display: inline;
+  margin: 3rem 4rem 3rem 1rem;
+  font-weight: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.items-input {
+  display: inline;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-right: 3rem;
+}
+
+.inline {
+  display: inline;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.knap {
+  padding: 2rem;
+  border-radius: 50px;
+  background-color: #2a75a3;
+  margin: 1rem auto;
+}
+
+button,
+.button {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+}
+
+button:hover,
+.button:hover {
+  background-color: #3e3d3d;
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin: 1rem auto;
+  border-radius: 10px;
+  padding: 1rem 1.3rem;
+  font-size: 1.4rem;
+}
